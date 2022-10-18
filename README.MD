@@ -1,3 +1,5 @@
+h1. AutoSync Github
+
 Instructions:
 
 Make sure you have TMUX and go to your Github Repo > Settings > Webhooks > Add webhook and make sure it points to your API endpoint.
