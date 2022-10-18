@@ -8,6 +8,6 @@ Make sure the API is running on the background of your system via TMUX or simila
 
 Create one TMUX screen with the name "GitAccess" and open your local Github cloned folder on it.
 
-Everytime the Github hook sents a sucessful request to your API, the 
+Everytime the Github hook sents a successful request to your API, the push command will be automatically sent
 
 --Only Works On UNIX Systems--
