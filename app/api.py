@@ -20,6 +20,6 @@ app.add_middleware(
 
 @app.post("/x1243")
 async def main(payload: dict = Body(...)):
-    update = f'tmux send-keys -t GitAcess "git pull" ENTER'
+    update = f'tmux send-keys -t GitAccess "git pull" ENTER'
     subprocess.call([update], shell=True)
     return 0
